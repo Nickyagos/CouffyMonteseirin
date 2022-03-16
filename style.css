@@ -1,0 +1,593 @@
+
+  
+.grid{
+     display: grid;
+     grid-template-columns: repeat(auto-fill, minmax(150px, 2fr));
+     grid-gap: 0.5em;
+}
+
+.grid-uno{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 1em;
+}
+
+ header{
+    background-image: url(Imagenes/cafe-footer1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: scroll;
+    }
+
+.TituloPrincipal {
+    font-size: 40px;
+    font-style: inherit;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+
+}
+
+.TituloSubPrincipal {
+    font-size: 30px;
+    font-style: inherit;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: #fff;
+}
+
+.Subtitulo {
+    font-size: 30px;
+    font-style: inherit;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-left: -1px;
+}
+
+.LogoMenu {
+    width: auto;
+    height: auto;
+    display: block;
+	margin: auto;
+    max-height: 250px;
+    
+}
+
+.MenuEstilo {
+    text-align: center;
+}
+nav a{
+    text-decoration:none;
+    color:inherit;
+    font-size:14px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    } 
+nav li{
+    display:inline-block;
+    width:10%;
+    padding:5px 10px;
+    background-color:rgb(112, 86, 38);
+    border:1px solid;
+    text-align: center;
+    cursor: pointer;
+    list-style: none;
+    }
+nav li:hover{
+    background-color:rgb(77, 58, 23);
+    color: rgb(150, 104, 20);
+    transform: translate(-2px, -2px);
+    }
+
+
+
+.ItemFlotanteHorizontal {
+    width: 210px;
+    height: 210px;
+    float: left;
+    padding: 2em;
+    border-style:double;
+    border-color: rgb(75, 52, 19);
+    box-shadow: inset;
+    padding-top: -10px;
+    padding-bottom: -10px;
+    background-image: url(Imagenes/cafe-footer.jpg);
+    background-size:cover;
+    padding-top:30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    padding-left:30px;
+}
+
+.ItemFlotanteHorizontal:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+body {
+    background: rgb(203,165,80);
+    background: radial-gradient(circle, rgba(203,165,80,1) 0%, rgba(61,43,2,1) 100%);
+font-family:'Josefin Sans', sans-serif;
+width: auto;
+}
+
+.gradient{
+    background: linear-gradient(to bottom, white, brown );
+}
+
+.SeccionAbajo {
+    padding:1em;
+    float: left;
+    overflow: hidden;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    padding-left: 170px;
+    padding-bottom: 90px;
+    box-shadow: inset;
+}
+
+.BordesCaja1 {
+    padding-top:70px;
+    padding-bottom: 70px;
+    padding-right: 70px;
+    padding-left: 70px;
+    border-color: rgb(75, 52, 19);
+    border-style:double;
+    background-image: url(Imagenes/cafe-cajas.jpg);
+    background-size:cover;
+    box-shadow: inset;
+}
+
+.BordesCaja2 {
+    padding-top:70px;
+    padding-bottom: 70px;
+    padding-right: 70px;
+    padding-left: 70px;
+    border-color: rgb(75, 52, 19);
+    border-style: double;
+    background-image: url(Imagenes/cafe-cajas1.jpg);
+    background-size:cover;
+}
+
+.ImagenTitulo {
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:70px;
+    padding-bottom: 70px;
+    padding-right: 28px;
+    padding-left:28px;
+}
+
+
+
+.footer_social {
+    min-height: 70px;
+    max-height: 400px;
+    background-image: url(Imagenes/cafe-footer.jpg);
+    border-top: 1px solid rgba(50, 50, 50, 0.3);
+    width: 100%;
+    position: relative;
+    clear: both;
+    margin-top: 0px;
+    padding-top: 0px;
+    overflow: visible;
+    display:inline-block;
+    background-color:rgb(112, 86, 38);
+    border:1px solid;
+    text-align: center;
+    cursor: pointer;
+    list-style: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Avisos {
+    float: right;
+    text-align:left;
+    cursor: pointer;
+    list-style: none;
+    display: inline;
+}
+
+.LogoMenuFinal {
+    width: auto;
+    height: auto;
+    display: block;
+	margin: auto;
+    max-height: 150px;
+}
+
+.EnlacesExternos {
+    padding: 10px;
+    margin-bottom: -10px;
+    justify-content: center;
+}
+
+.TextoCentrado{
+    text-align:center;
+    display:block;
+}
+
+.form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form input {
+    width: 90%;
+    height: 30px;
+    margin: 0.5rem;
+  }
+  
+  .form button {
+    padding: 0.5em 1em;
+    border: none;
+    cursor: pointer;
+  }
+
+  .form button:hover{
+    background-color:rgb(77, 58, 23);
+    color: rgb(150, 104, 20);
+    transform: translate(-2px, -2px);
+    }
+
+
+  .DiseñoMapa {
+	margin: auto;
+    display: block;
+  }
+
+@media screen and (max-width: 599px) {
+
+    header{
+       height: 60vh;
+       width: 100vw;
+        }
+
+    header .TituloPrincipal{
+        height: 5vh;
+        width: auto;
+        font-size:medium;
+        }
+
+    header .TituloSubPrincipal{
+        height: 5vh;
+        font-size: medium;
+        }
+    
+    header .MenuEstilo{
+        height: 13vh;
+        margin-left: -60px;
+        }
+    
+    header .LogoMenu{
+        height: 30vh;
+        }
+    
+    main .Subtitulo{
+        font-size: medium;
+        margin-left: 10%;
+    }
+
+    nav a{
+            text-decoration:none;
+            color:inherit;
+            font-size:12px;
+            font-family: 'Josefin Sans', sans-serif;
+            color: white;
+            display: flex;
+            } 
+
+    nav li{
+            height: auto;
+            width:auto;
+            padding:2px 2px;
+            background-color:rgb(112, 86, 38);
+            border:1px solid;
+            text-align: center;
+            cursor: pointer;
+            list-style: none;
+            float:inherit;
+            }
+
+    nav li:hover{
+            background-color:rgb(77, 58, 23);
+            color: rgb(68, 48, 11);
+            }
+        
+        
+        
+    .ItemFlotanteHorizontal {
+            width:40vw;
+            height: 40vh;
+            float:center;
+            border-style:double;
+            border-color: rgb(75, 52, 19);
+            box-shadow: inset;
+            padding-top: 20%;
+            padding-bottom: 20%;
+            background-image: url(Imagenes/cafe-footer.jpg);
+            background-size:cover;
+            padding-right: 10%;
+            padding-left:10%
+        }
+
+        .ImagenTitulo {
+            width: 50vw;
+            padding-top:20%;
+            padding-bottom: 5%;
+            padding-right: 5%;
+            padding-left: 25%;
+        }        
+
+        
+        body {
+        background-color: rgb(151, 112, 60);
+        font-family:'Josefin Sans', sans-serif;
+        }
+        
+        .SeccionAbajo {
+            float: left;
+            overflow: hidden;
+            text-align: center;
+            align-items: center;
+            padding-left: 20px;
+            padding-bottom: 20px;
+            box-shadow: inset;
+            margin-right: 20%;
+            margin-left: 20%;
+        }
+        
+        .BordesCaja1 {
+            padding-top:20px;
+            padding-bottom: 20px;
+            padding-right: 30px;
+            padding-left: 30px;
+            border-color: rgb(75, 52, 19);
+            border-style:double;
+            background-image: url(Imagenes/cafe-cajas.jpg);
+            background-size:cover;
+            box-shadow: inset;
+            height: 30vh;
+            width: 15vw;
+        }
+        
+        .BordesCaja2 {
+            padding-top:20px;
+            padding-bottom: 20px;
+            padding-right: 58px;
+            padding-left: 58px;
+            border-color: rgb(75, 52, 19);
+            border-style:double;
+            background-image: url(Imagenes/cafe-cajas.jpg);
+            background-size:cover;
+            box-shadow: inset;
+            height: 30vh;
+            width: 15vw;
+        }
+        
+        .TextoCentrado{
+            text-align:center;
+            display:flexbox;
+            width: 55vw;
+            }
+        
+        .form {
+            width: 70vw;
+            height: 70vh;
+            max-width: 600px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+          }
+          
+          .form input {
+            width: 90%;
+            height: 30px;
+            margin: 0.5rem;
+          }
+          
+          .form button {
+            padding: 0.5em 1em;
+            border: none;
+            cursor: pointer;
+          }
+        
+          .DiseñoMapa {
+            margin: auto;
+            display: block;
+            width: 70vw;
+            height: 70vh;
+          }
+
+    footer{
+        height: 70vh;
+        width: auto;
+        }
+}
+
+@media screen and (max-width: 1028px) and (min-width: 600px) {
+
+    header{
+       height: 90vh;
+       width: 100vw;
+        }
+
+    header .TituloPrincipal{
+        height: 5vh;
+        width: auto;
+
+        }
+
+    header .TituloSubPrincipal{
+        height: 5vh;
+        width: auto;
+
+        }
+    
+    header .MenuEstilo{
+        height: 13vh;
+        margin-left: -60px;
+        }
+    
+    header .LogoMenu{
+        height: 100vh;
+        }
+
+
+    nav a{
+            text-decoration:none;
+            color:inherit;
+            font-size:16px;
+            font-family: 'Josefin Sans', sans-serif;
+            color: white;
+            display: flex;
+            } 
+
+    nav li{
+            height: auto;
+            width:auto;
+            padding:8px 8px;
+            background-color:rgb(112, 86, 38);
+            border:1px solid;
+            text-align: center;
+            cursor: pointer;
+            list-style: none;
+            float:inherit;
+            margin-left: 10px;
+            }
+
+    nav li:hover{
+            background-color:rgb(77, 58, 23);
+            color: rgb(68, 48, 11);
+            }
+        
+        
+        
+    .ItemFlotanteHorizontal {
+            width:30vw;
+            height: 30vh;
+            border-style:double;
+            border-color: rgb(75, 52, 19);
+            box-shadow: inset;
+            padding-top: 20px;
+            padding-bottom: 40px;
+            background-image: url(Imagenes/cafe-footer.jpg);
+            background-size:cover;
+            padding-right: 30px;
+            padding-left:30px;
+
+
+        }
+        
+        body {
+        background-color: rgb(151, 112, 60);
+        font-family:'Josefin Sans', sans-serif;
+        }
+        
+        .SeccionAbajo {
+            float: left;
+            overflow: hidden;
+            text-align: center;
+            align-items: center;
+            padding-left: 10px;
+            padding-bottom: 30px;
+            padding-top: 30px;
+            box-shadow: inset;
+            margin-right: 10px;
+            margin-left: 10px;
+        }
+        
+        .BordesCaja1 {
+            padding-top: 10%;
+            padding-bottom: 5%;
+            padding-right: 40px;
+            padding-left: 30px;
+            border-color: rgb(75, 52, 19);
+            border-style:double;
+            background-image: url(Imagenes/cafe-cajas.jpg);
+            background-size:cover;
+            box-shadow: inset;
+            height: 40vh;
+            width: 30vw;
+        }
+        
+        .BordesCaja2 {
+            padding-top:10%;
+            padding-bottom: 5%;
+            padding-right: 40px;
+            padding-left: 20px;
+            border-color: rgb(75, 52, 19);
+            border-style:double;
+            background-image: url(Imagenes/cafe-cajas1.jpg);
+            background-size:cover;
+            box-shadow: inset;
+            height: 40vh;
+            width: 30vw;
+        }
+        
+        .ImagenTitulo {
+            width: 30vw;
+            height: 50vh;
+            padding-top:13%;
+            padding-bottom: 13%;
+            padding-right: 10px;
+            padding-left:190px;
+        }        
+
+        .TextoCentrado{
+            text-align:center;
+            display:flexbox;
+            width: 55vh;
+            margin-left: -15px;
+            }
+        
+        .form {
+            width: 70vw;
+            height: 70vh;
+            max-width: 600px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+          }
+          
+          .form input {
+            width: 90%;
+            height: 30px;
+            margin: 0.5rem;
+          }
+          
+          .form button {
+            padding: 0.5em 1em;
+            border: none;
+            cursor: pointer;
+          }
+        
+          .DiseñoMapa {
+            margin: auto;
+            display: block;
+            width: 70vw;
+            height: 70vh;
+          }
+
+    footer{
+        height: 70vh;
+        width: auto;
+        }
+}
+
